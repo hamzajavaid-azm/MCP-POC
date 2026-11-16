@@ -1,0 +1,9 @@
+@FirstMcpServer_HostAddress = http://localhost:5129
+
+### Get current weather for Islamabad
+GET {{FirstMcpServer_HostAddress}}/api/weather?latitude=33.6844&longitude=73.0479
+Accept: application/json
+
+### Get current weather for a different location (London)
+GET {{FirstMcpServer_HostAddress}}/api/weather?latitude=51.5072&longitude=-0.1276
+Accept: application/json
